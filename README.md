@@ -8,3 +8,8 @@ Berikut adalah langkah-langkah untuk menginstal dan menjalankan proyek Laravel i
 
    ```bash
    git clone https://github.com/username/nama-proyek.git
+
+2. **Masuk ke Folder Project:**
+
+   ```bash
+   cd TimedoorBootcampTest2024
