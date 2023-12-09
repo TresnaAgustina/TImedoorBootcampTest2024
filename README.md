@@ -1,6 +1,4 @@
-# Nama Proyek
-
-Deskripsi singkat proyek Laravel Anda.
+# Test Coding Bootcamp Timedoor 2024
 
 ## Instalasi
 
