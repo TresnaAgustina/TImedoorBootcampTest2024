@@ -21,7 +21,7 @@ class BookSeeder extends Seeder
         $author = Author::all();
         $category = BookCategory::all();
 
-        for ($i = 0; $i < 100; $i++) {
+        for ($i = 0; $i < 100000; $i++) {
             $book = new Book();
             $book->title = $faker->sentence(3);
             $book->category_id = $category->random()->id;

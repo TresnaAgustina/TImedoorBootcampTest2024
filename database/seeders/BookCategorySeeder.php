@@ -16,7 +16,7 @@ class BookCategorySeeder extends Seeder
         // book category faker = 3000 data
         $faker = FakerFactory::create();
 
-        for ($i = 0; $i < 300; $i++) {
+        for ($i = 0; $i < 3000; $i++) {
             $bookCategory = new BookCategory();
             $bookCategory->name = $faker->word();
             $bookCategory->save();

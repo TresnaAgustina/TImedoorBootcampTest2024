@@ -19,7 +19,7 @@ class RatingSeeder extends Seeder
 
         $book = Book::all();
 
-        for ($i = 0; $i < 1000; $i++) {
+        for ($i = 0; $i < 500000; $i++) {
             $rating = new Rating();
             $rating->value = $faker->numberBetween(1, 10);
             $rating->book_id = $book->random()->id;
